@@ -18,7 +18,7 @@ const MovieList = ({ movies }) => {
               src={
                 poster_path
                   ? `${IMAGE_BASE_URL}${poster_path}`
-                  : "https://placehold.co/100x150?text=No+Photo"
+                  : "https://placehold.co/200x300?text=No+Image"
               }
               alt={title}
               width={200}
